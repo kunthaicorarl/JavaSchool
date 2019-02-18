@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+# Google-Drive-Rest-CRUD
+Using Rest Apis in Google Drive with CRUD functionality
 
-You can use the [editor on GitHub](https://github.com/kunthaicorarl/JavaSchool/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Implemented Google drive rest API with the functionality of-
+1. Sign in using existing google Account
+2. View all existing Files
+3. Upload a new file.
+4. Delete existing file.
+5. Download existing file.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This project has been made using Javascript, JQUERY and BOOTSTRAP...
 
-### Markdown
+Generate your Google client key [here](https://developers.google.com/drive/v3/web/quickstart/js#step_1_turn_on_the_api_name). Just add the client key in js/main-script.js and comment line #20. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+See the prerequisites [here](https://developers.google.com/drive/v3/web/quickstart/js#prerequisites).
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kunthaicorarl/JavaSchool/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+See how to run [here](https://developers.google.com/drive/v3/web/quickstart/js#step_3_run_the_sample).
